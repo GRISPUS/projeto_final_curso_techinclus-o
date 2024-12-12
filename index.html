@@ -1,0 +1,247 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <html lang="pt-br"></html>
+    <title>Guia Simples de Montagem de PC</title>
+    <meta name="description" content="aprenda a montar um pc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Samuel Rocha Oliveira E Matheus ROCHA">
+    <meta property="og:title" content="Loja Online de Roupas Femininas">
+    <meta property="og:description" content="Encontre roupas de alta qualidade e com preços acessíveis!">
+    <meta property="og:image" content="URL da imagem de pré-visualização">
+    <style>
+      :root {
+        --primary: #000000;
+        --secondary: #000000;
+        --light: #e3f2fd;
+        --dark: #000000;
+      }
+    
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+    
+      body {
+        background: linear-gradient(135deg, var(--light), #ffffff);
+      }
+    
+      .header {
+        background: linear-gradient(45deg, var(--primary), var(--secondary));
+        color: white;
+        padding: 2rem;
+        text-align: center;
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      }
+    
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+    
+      .card {
+        background: white;
+        border-radius: 15px;
+        padding: 2rem;
+        margin: 1rem 0;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+      }
+    
+      .card:hover {
+        transform: translateY(-5px);
+      }
+    
+      .warning {
+        background: #ffebee;
+        border-left: 5px solid #f44336;
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+    
+      .component-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        margin: 2rem 0;
+      }
+    
+      .component {
+        text-align: center;
+        padding: 1rem;
+      }
+    
+      .component svg {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 1rem;
+      }
+    
+      h2 {
+        color: var(--dark);
+        margin-bottom: 1rem;
+      }
+    
+      .steps {
+        list-style: none;
+      }
+    
+      .steps li {
+        margin: 1rem 0;
+        padding: 1rem;
+        background: var(--light);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+    
+      .step-number {
+        background: var(--primary);
+        color: white;
+        width: 40px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 69%;
+      }
+    
+      .dont-do {
+        color: #d32f2f;
+        font-weight: bold;
+      }
+    </style>
+    </head>
+    <body>
+      <div class="header">
+        <h1>Guia Fácil: Monte Seu PC</h1>
+        <p>Aprenda a montar seu computador de forma segura e simples</p>
+      </div>
+    
+      <div class="container">
+        <div class="card">
+          <h2> Componentes Principais</h2>
+          <div class="component-grid">
+            <div class="component">
+             <img src="img/828b41ac05.webp" alt="processador" height="150px" width="150px">
+              <h3>Processador (CPU)</h3>
+              <p>O cérebro do computador</p>
+            </div>
+    
+            <div class="component">
+              <img src="img/download.jpg" alt="placa mae" height="150px" width="150px">
+              <h3>Placa-Mãe</h3>
+              <p>Conecta todos os componentes</p>
+            </div>
+    
+            <div class="component">
+              <img src="img/ram(1).jpg" alt="memoria ram" height="150px" width="150px">
+              <h3>Memória RAM</h3>
+              <p>Memória de trabalho</p>
+            </div>
+    
+            <div class="component">
+              <img src="img/Fonte.png" alt="fonte de alimentação" height="150px" width="160px"> 
+              <h3>Fonte de Alimentação</h3>
+              <p>Fornece energia para o PC</p>
+            </div>
+    
+            <div class="component">
+             <img src="img/o_que_e_hd_corpo4-1.webp" hd e ssd height="120px" width="180px">
+              <h3>HD/SSD</h3>
+              <p>Armazena seus arquivos</p>
+            </div>
+            <div class="component">
+              <img src="img/cooler_cpu_intel_processador_lga_775_115x_1366_1200_1700_15121_1_ab85980c6a86e2b1785353607ebb2ed3.webp" hd e ssd height="140px" width="180px">
+               <h3>Sistema de resfriamento (Cooler)</h3>
+               <p> O cooler, que pode ser um ventilador ou um sistema de refrigeração líquida</p>
+             </div>
+
+             <div class="component">
+              <img src="img/ry1gafqxrv8opolvxneci9hao6odwwgu28ul_640x640+fill_ffffff.jpg" hd e ssd height="120px" width="180px">
+               <h3>Gabinete</h3>
+               <p>O gabinete é a estrutura física que contém todos os componentes do computador</p>
+             </div>
+          </div>
+        </div>
+    
+        <div class="card">
+          <h2> Passo a Passo</h2>
+          <ol class="steps">
+            <li>
+              <div class="step-number">1</div>
+              <div>Prepare uma superfície limpa e sem carpete para trabalhar: 
+                Escolha uma área plana e bem iluminada, preferencialmente uma mesa ou bancada. 
+                Carpete pode gerar eletricidade estática, o que pode danificar os componentes, por isso,
+                 é importante garantir que o ambiente esteja limpo e seguro.</div>
+            </li>
+            <li>
+              <div class="step-number">2</div>
+              <div>Instale o processador na placa-mãe com muito cuidado: Abra o soquete do processador 
+                na placa-mãe (geralmente, há uma alavanca que precisa ser levantada). Alinhe o processador
+                 com o soquete, observando a seta ou os marcos que indicam o alinhamento correto. Coloque o 
+                 processador suavemente no soquete e abaixe a alavanca para fixá-lo no lugar.</div>
+            </li>
+            <li>
+              <div class="step-number">3</div>
+              <div>Aplique pasta térmica no processador: Aplique uma pequena quantidade de pasta térmica 
+                (geralmente do tamanho de um grão de arroz) no centro do processador. Isso ajudará a
+                melhorar a dissipação de calor entre o processador e o cooler.</div>
+            </li>
+            <li>
+              <div class="step-number">4</div>
+              <div>Coloque a memória RAM nos slots corretos até ouvir o "clique": Identifique 
+                os slots de memória RAM na placa-mãe e, com cuidado, insira cada módulo de RAM, 
+                alinhando-o corretamente. Pressione firmemente até ouvir um "clique" indicando que o 
+                módulo está fixado corretamente.</div>
+            </li>
+            <li>
+              <div class="step-number">5</div>
+              <div>Fixe a placa-mãe no gabinete usando os parafusos adequados: Coloque a placa-mãe 
+                no gabinete, alinhando-a com os pontos de fixação. Use os parafusos apropriados para prender a 
+                placa-mãe na estrutura do gabinete, sem apertar demais para evitar danos.</div>
+            </li>
+            <li>
+              <div class="step-number">6</div>
+              <div>Instale a fonte de alimentação e conecte os cabos necessários: Posicione a fonte de
+                 alimentação no local apropriado dentro do gabinete (geralmente na parte inferior ou superior, 
+                 dependendo do modelo). Fixe-a com parafusos e, em seguida, conecte os cabos de alimentação necessários à
+                 placa-mãe, ao processador (se necessário) e a outros componentes, como a placa de vídeo, discos rígidos, etc.</div>
+            </li>
+            <li>
+              <div class="step-number">7</div>
+              <div>Conecte HD/SSD e outros componentes: Conecte os cabos de dados e de alimentação nos dispositivos de 
+                armazenamento (HD ou SSD). Instale também a placa de vídeo (se houver), conectando-a ao slot PCIe da placa-mãe e 
+                ligando os cabos de alimentação necessários. Conecte outros periféricos, como ventoinhas, sistemas de áudio, ou qualquer 
+                outro dispositivo adicional que sua configuração precise.</div>
+            </li>
+          </ol>
+        </div>
+    
+        <div class="card">
+          <h2> O que NÃO fazer</h2>
+          <ul class="dont-do">
+            <li>Nunca force nenhum componente</li>
+            <li>Não toque nos pinos do processador</li>
+            <li>Não monte o PC em superfície com carpete (eletricidade estática)</li>
+            <li>Não esqueça de usar a pasta térmica no processador</li>
+            <li>Não conecte cabos de força sem verificar a voltagem</li>
+            <li>Não deixe parafusos soltos dentro do gabinete</li>
+            <li>Não ligue o PC sem ter certeza que tudo está conectado corretamente</li>
+          </ul>
+        </div>
+    
+        <div class="warning">
+          <h3> Dicas Importantes!</h3>
+          <p>1. Sempre descarregue a eletricidade estática tocando em algo metálico antes de manusear os componentes!</p>
+          <p>2. Se não tiver certeza de alguma etapa, consulte o manual dos componentes ou peça ajuda.</p>
+          <p>3. Mantenha os manuais dos componentes sempre por perto durante a montagem.</p>
+        </div>
+      </div>
+    </body>
+    </html>
